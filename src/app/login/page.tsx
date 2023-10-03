@@ -18,10 +18,10 @@ export default function LoginPage() {
          <hr />
 
          <label className=" text-lg font-medium" htmlFor="email">
-            email
+            Enter Email
          </label>
          <input
-            className="p-2 border border-gray-300 rounded-lg mb-4 focus:outline-none focus:border-gray-600 text-black"
+            className="p-2 bg-gray-900 border border-gray-300 rounded-lg mb-4 focus:outline-none focus:border-gray-600 text-white"
             id="email"
             type="text"
             value={user.email}
@@ -30,10 +30,10 @@ export default function LoginPage() {
          />
 
          <label className=" text-lg font-medium" htmlFor="password">
-            password
+            Enter Password
          </label>
          <input
-            className="p-2 border border-gray-300 rounded-lg mb-4 focus:outline-none focus:border-gray-600 text-black"
+            className="p-2 bg-gray-900 border border-gray-300 rounded-lg mb-4 focus:outline-none focus:border-gray-600 text-white"
             id="password"
             type="password"
             value={user.password}

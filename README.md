@@ -1,0 +1,1 @@
+This is me learning Next.js and building a User Authentication System with it. 
